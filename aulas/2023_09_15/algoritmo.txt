@@ -1,0 +1,19 @@
+declarar lista de tamanho 8
+declarar variável qtd com valor 0 (zero)
+
+[while]enquanto qtd < 8
+   obter um número
+
+   # verificar se o número está na lista
+   
+   # partir da hipótese que não existe, ou seja:
+   existe = False
+
+   [for]para cada valor na lista
+	se o número for igual ao da lista de qtd tamanho
+	   existe = true
+           break
+ 
+   se existe ainda for False
+	armazena o valor no qtd índice
+   	incrementa o valor de qtd
